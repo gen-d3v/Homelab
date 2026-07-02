@@ -18,12 +18,19 @@
 
 | Port | Connected Device |
 | ---- | ---------------- |
-| 1    | Router           |
-| 2    | Server 1         |
-| 3    | Server 2         |
-| 4    | Server 3         |
+| 1    | MgmtWS           |
+| 2    | PVE-1            |
+| 3    | PVE-2            |
+| 4    | PVE-3            |
 | 5-8  | Available        |
 
 ## Network
 
 - **IP Address:** 192.168.178.2
+
+## Change Log
+
+| Date       | Change                      |
+| ---------- | --------------------------- |
+| 2026-06-30 | Initial documentation setup |
+| 2026-07-02 | Changed port naming         |
