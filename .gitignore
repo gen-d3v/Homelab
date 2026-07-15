@@ -1,0 +1,5 @@
+# Opentofu/Terraform
+
+**/.terraform/
+*.tfstate
+*.tfstate.*
