@@ -1,5 +1,6 @@
 | Date       | Change                                                                                                                                                                                    | File Modified       |
 | ---------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------- |
+|2026-17-04 |Made a working tofu template cloning vm100  | `debian.tf`, `main.tf`, `variables.tf`  |
 | 2026-07-04 | Tested Tailscale vpn outside of the local network succesfully.                                                                                                                            |                     |
 | 2026-07-02 | Added Tailscale vpn so the cluster can be managed form afar and added new software documentation.                                                                                         | `tailscale.md`      |
 | 2026-07-02 | Created the first Debian VM successfully. During testing, hardware virtualization (Intel VT-x) was disabled in the BIOS. Enabled it on Node 1; Nodes 2 and 3 still need to be configured. |                     |
