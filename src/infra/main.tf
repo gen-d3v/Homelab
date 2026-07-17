@@ -1,21 +1,18 @@
-terraform { 
-    required_version = ">= 1.0"
-    required_providers {
-        proxmox = {
-            source = "telmate/proxmox"
-        }
+terraform {
+  required_providers {
+    proxmox = {
+      source  = "bpg/proxmox"
+      version = "~> 0.93"
     }
+  }
 }
 
 provider "proxmox" {
-    # pm_api_url = 
-    # pm_api_token_id = 
-    # pm_api_token_secret = 
-    pm_tls_insecure = true
-}
+  endpoint = var.proxmox_nodes.pm1.api_url
 
-resource "proxmox_lxc" "debian_linux_vm" { 
-    
+  api_token = "${var.proxmox_nodes.pm1.token_id}=${var.proxmox_nodes.pm1.token_secret}"
+
+  insecure = true
 }
 
 
