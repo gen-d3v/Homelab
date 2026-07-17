@@ -2,23 +2,43 @@
 
 proxmox_nodes = { 
     pm1 = {
-        api_url      = ""
-        token_id     = ""
-        token_secret = ""
-        node_name    = ""
+    api_url      = ""
+    token_id     = ""
+    token_secret = ""
+    name    = ""
     }
 
     pm2 = {
-        api_url      = ""
-        token_id     = ""
-        token_secret = ""
-        node_name    = ""
+    api_url      = ""
+    token_id     = ""
+    token_secret = ""
+    name    = ""
     }
 
     pm3 = {
-        api_url      = ""
-        token_id     = ""
-        token_secret = ""
-        node_name    = ""
+    api_url      = ""
+    token_id     = ""
+    token_secret = ""
+    name    = ""
     }
+}
+
+
+debian_template_id = 100
+
+datastore_id = {
+  pm1 = "local-lvm"
+  pm2 = "local-lvm"
+  pm3 = "local-lvm"
+}
+
+network_bridge = {
+  pm1 = "vmbr0"
+  pm2 = "vmbr0"
+  pm3 = "vmbr0"
+}
+
+vm_user = {
+  username = "tofu1"
+  key_path = "C:/Users/YourName/.ssh/id_ed25519.pub"
 }
