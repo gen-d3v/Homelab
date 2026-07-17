@@ -1,0 +1,26 @@
+# Api Url 
+pm1_api_url = ""
+pm2_api_url = ""
+pm3_api_url = ""
+
+
+# Token ID
+pm1_api_token_id=""
+pm2_api_token_id=""
+pm3_api_token_id=""
+
+# Secret Token
+pm1_api_token_secret= ""
+pm2_api_token_secret= ""
+pm3_api_token_secret= ""
+
+
+# Node name
+node1_name = ""
+node2_name = ""
+node3_name = ""
+
+# Password
+lxc1_password = "" 
+lxc2_password = ""
+lxc3_password = ""
