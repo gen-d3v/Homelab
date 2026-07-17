@@ -1,26 +1,24 @@
-# Api Url 
-pm1_api_url = ""
-pm2_api_url = ""
-pm3_api_url = ""
+# Proxmox nodes
 
+proxmox_nodes = { 
+    pm1 = {
+        api_url      = ""
+        token_id     = ""
+        token_secret = ""
+        node_name    = ""
+    }
 
-# Token ID
-pm1_api_token_id=""
-pm2_api_token_id=""
-pm3_api_token_id=""
+    pm2 = {
+        api_url      = ""
+        token_id     = ""
+        token_secret = ""
+        node_name    = ""
+    }
 
-# Secret Token
-pm1_api_token_secret= ""
-pm2_api_token_secret= ""
-pm3_api_token_secret= ""
-
-
-# Node name
-node1_name = ""
-node2_name = ""
-node3_name = ""
-
-# Password
-lxc1_password = "" 
-lxc2_password = ""
-lxc3_password = ""
+    pm3 = {
+        api_url      = ""
+        token_id     = ""
+        token_secret = ""
+        node_name    = ""
+    }
+}
