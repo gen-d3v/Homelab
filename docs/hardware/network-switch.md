@@ -18,7 +18,7 @@
 
 | Port | Connected Device |
 | ---- | ---------------- |
-| 1    | MgmtWS           |
+| 1    | ansible-controller|
 | 2    | PVE-1            |
 | 3    | PVE-2            |
 | 4    | PVE-3            |
